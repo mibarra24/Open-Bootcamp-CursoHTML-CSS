@@ -1,0 +1,12 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#elemento-1 {
+    color: red;
+}
+
+.elemento {
+    size: 2rem;
+}
+

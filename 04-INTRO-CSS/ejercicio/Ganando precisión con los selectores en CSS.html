@@ -1,0 +1,44 @@
+<!--Crea un nuevo documento HTML con el título "Ganando precisión con los selectores en CSS"
+Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
+Dentro del body crea una sección con los siguientes elementos:
+Encabezado que contenga el texto "Lista de la compra"
+Añade en el encabezado un atributo id con el valor "titulo"
+Añade también un atributo class con el valor "encabezado"
+Una lista desordenada con cinco elementos que representen artículos de la compra
+Cada uno de los elementos debe tener un id como sigue: primer elemento "elemento-1", segundo elemento "elemento-2", etc.
+Una lista ordenada con cinco elementos que representan los supermercados más cercanos a tu casa
+Al igual que en la lista anterior, cada uno de los elementos debe tener un id como sigue: primer elemento "elemento-1", segundo elemento "elemento-2", etc.
+Modifica el CSS para que el primer elemento de cada lista se muestre de color rojo
+A través del encadenamiento de selectores, haz que el primer elemento de la primera lista tenga un tamaño de letra de 2rem-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <mhttp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganando presicion con los selectores en CSS</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+<div class="encabezado">
+    <h1 id="titulo">Lista de compra</h1>
+</div>
+<ul>
+    <li id="elemento-1" class="elemento">Bananas</li>
+    <li id="elemento-2">Papel higienico</li>
+    <li id="elemento-3">Leche</li>
+    <li id="elemento-4">Galletas</li>
+    <li id="elemento-5">Pasta</li>
+</ul>
+<ol>
+    <li id="elemento-1">Walmart</li>
+    <li id="elemento-2">Target</li>
+    <li id="elemento-3">Whole Foods</li>
+    <li id="elemento-4">Food City</li>
+    <li id="elemento-5">Safeway</li>
+</ol>
+</body>
+</html>
