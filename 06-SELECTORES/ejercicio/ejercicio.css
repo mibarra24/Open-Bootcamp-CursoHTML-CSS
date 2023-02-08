@@ -1,0 +1,11 @@
+.boton-contenedor:hover {
+    color: white;
+    background-color: green;
+}
+
+.frase p::selection{
+    content: '¡Hecho!';
+}
+
+
+

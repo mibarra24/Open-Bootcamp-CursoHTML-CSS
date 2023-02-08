@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo-Clases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 200px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            background-color: burlywood;
+        }
+
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado  p:first-child {
+            color: white;
+        }
+
+        a:link {
+            color: deeppink;
+        }
+
+        a:visited {
+            color: crimson;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Elit ipsum deserunt ut magna esse non adipisicing officia dolore dolor cillum.</p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.google.com/" target="_blank">Enlace a google</a>
+        <a href="https://www.marca.com/claro-mx/" target="_blank">Enlace a marca</a>
+    </div>
+</body>
+</html>
